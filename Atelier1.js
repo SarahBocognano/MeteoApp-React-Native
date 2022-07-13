@@ -12,7 +12,7 @@ export default function Atelier1 () {
   const getWeather = async ()=>{
     try {
     const response = await fetch(
-      'https://api.openweathermap.org/data/2.5/weather?q=vallauris&appid=c4b61289ffdb78e46a0ae0d966caf5b5&units=metric'
+      'https://api.openweathermap.org/data/2.5/weather?q=vallauris&appid=yourApiID&units=metric'
       );
     const data = await response.json();
     console.log(data)
